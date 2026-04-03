@@ -12,13 +12,13 @@ metadata:
 
 ## 调用方式
 
-将游戏 HTML 复制到输出目录并用浏览器打开：
+直接将 HTML 文件发送给用户：
 
 ```bash
-mkdir -p /data/html-ai/tetris && cp /root/.openclaw/skills/tetris/tetris.html /data/html-ai/tetris/tetris.html && open /data/html-ai/tetris/tetris.html
+send_file /root/.openclaw/skills/tetris/tetris.html
 ```
 
-宿主机路径：`C:\Users\admin\Desktop\AI HTML\tetris\tetris.html`
+用户收到后在浏览器打开即可游玩。
 
 ## 游戏操作
 
